@@ -1,0 +1,33 @@
+# Unity generated folders
+Library/
+Temp/
+obj/
+Builds/
+
+# If you put your builds in a different folder, add it here (e.g., "Build/")
+
+# Visual Studio and other IDE generated files
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.pidb
+*.suo
+*.opendb
+
+# MacOS
+.DS_Store
+
+# Uncomment this to ignore Visual Studio Code files.
+#.vscode/
+# If you want to share VS Code settings with your team, you can remove the leading '#' from the line above.
+
+# Crash Reports
+*.crash
+sysinfo.txt
+
+# Large Assets to ignore
+Assets/Zombie/Normal/Ch10_nonPBR.fbx
+Assets/Background Scripts/725604__whitenoisesleeper__winter-winds-leaving-the-front-yard.wav
+Assets/Environment/AllSkyFree/Cold Sunset/Cold Sunset Equirect.png

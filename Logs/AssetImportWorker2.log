@@ -1,0 +1,331 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.45f1 (0da89fac8e79) revision 895135'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16147 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/besho/Desktop/Zombieee
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49942
+Successfully changed project path to: C:/Users/besho/Desktop/Zombieee
+C:/Users/besho/Desktop/Zombieee
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8164] Host "[IP] 192.168.1.160 [Port] 0 [Flags] 2 [Guid] 719972745 [EditorId] 719972745 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TCR90G3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8164] Host "[IP] 192.168.1.160 [Port] 0 [Flags] 2 [Guid] 719972745 [EditorId] 719972745 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TCR90G3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 144.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.45f1 (0da89fac8e79)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/besho/Desktop/Zombieee/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3990 MB
+    Driver:   27.21.14.6262
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011454 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 145.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1222ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (881ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (240ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (494ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (146ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (251ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011574 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 147.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.865 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2867ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2433ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (1553ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (148ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (1103ms)
+				ProcessInitializeOnLoadMethodAttributes (132ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5381 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (0.8 MB). Loaded Objects now: 5845.
+Memory consumption went from 215.3 MB to 214.5 MB.
+Total: 6.063000 ms (FindLiveObjects: 0.619400 ms CreateObjectMapping: 0.383800 ms MarkObjects: 4.599300 ms  DeleteObjects: 0.458900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 847.647549 seconds.
+  path: Assets/Environment/New folder/uploads_files_2292648_GRASS.fbx
+  artifactKey: Guid(ed850aa12be711a49a5171210b30c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/New folder/uploads_files_2292648_GRASS.fbx using Guid(ed850aa12be711a49a5171210b30c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a1eb16406b68195a01cf6596ec4ae7') in 1.104219 seconds 
+Number of asset objects unloaded after import = 28018
+========================================================================
+Received Import Request.
+  Time since last request: 7.088045 seconds.
+  path: Assets/Environment/New folder/uploads_files_2292648_GRASS.fbx
+  artifactKey: Guid(ed850aa12be711a49a5171210b30c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/New folder/uploads_files_2292648_GRASS.fbx using Guid(ed850aa12be711a49a5171210b30c76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96922d2cc43f586c8cfc69ba00874bc0') in 0.829620 seconds 
+Number of asset objects unloaded after import = 28018
+========================================================================
+Received Import Request.
+  Time since last request: 136.513509 seconds.
+  path: Assets/Environment/New folder/uploads_files_4928073_grass+place2.fbx
+  artifactKey: Guid(55e1ca0509274794e8fc9f3f2ab67586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/New folder/uploads_files_4928073_grass+place2.fbx using Guid(55e1ca0509274794e8fc9f3f2ab67586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e740fb338f419668477454bf1fbf1b35') in 0.066765 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.002681 seconds.
+  path: Assets/Environment/New folder/textures/Grass001_1K-PNG_AmbientOcclusion.png
+  artifactKey: Guid(12a6bfb6b833da2478abff858499e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/New folder/textures/Grass001_1K-PNG_AmbientOcclusion.png using Guid(12a6bfb6b833da2478abff858499e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382a82a7603966f475e323bcf39a7e04') in 0.067575 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 176.430418 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack
+  artifactKey: Guid(efb418ec0af173c429d3a7bc15c6d67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack using Guid(efb418ec0af173c429d3a7bc15c6d67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2399c12376f783774cb4acd55c72736c') in 0.016797 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031985 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/ForestPack.fbx
+  artifactKey: Guid(1e8e6bdcb2a52264880e18b50fc6ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/ForestPack.fbx using Guid(1e8e6bdcb2a52264880e18b50fc6ab9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a2129d164b445f87b73d417fae39dc1') in 0.628784 seconds 
+Number of asset objects unloaded after import = 221
+========================================================================
+Received Import Request.
+  Time since last request: 7.095851 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture
+  artifactKey: Guid(d7c813e497fc32b4a9175093c033ab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture using Guid(d7c813e497fc32b4a9175093c033ab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5ba449cc44ea484523cd6e7ee54262') in 0.017704 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.774543 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture
+  artifactKey: Guid(162a47e699203674bb344d5ad3bb32b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture using Guid(162a47e699203674bb344d5ad3bb32b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f408b4994ada2aec0eb307d1661d60fc') in 0.015643 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.562287 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark01
+  artifactKey: Guid(46fdb85530efe134bb4552ee5b09f50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark01 using Guid(46fdb85530efe134bb4552ee5b09f50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25c72a3ec74e17f3cbe720afea398e34') in 0.016296 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.031619 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark01/Bark001_ambientOcclusion.png
+  artifactKey: Guid(f56547b552052b94abd4ad66714de7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark01/Bark001_ambientOcclusion.png using Guid(f56547b552052b94abd4ad66714de7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e968a98681f0773b616b4dbf734394a2') in 0.054183 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark01/Bark001_height.png
+  artifactKey: Guid(cecf7fd86756b1f41939a6ef16070308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark01/Bark001_height.png using Guid(cecf7fd86756b1f41939a6ef16070308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a69204e471be021089817c4b91aceb') in 0.037163 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark01/Bark001_roughness.png
+  artifactKey: Guid(3a1c1a5a36d21914c9379253f855883a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark01/Bark001_roughness.png using Guid(3a1c1a5a36d21914c9379253f855883a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a655c4867362fea6b835a5195dc35a') in 0.045884 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.925727 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark02
+  artifactKey: Guid(ae1fbf3cc22d5834dbba438e5558f09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark02 using Guid(ae1fbf3cc22d5834dbba438e5558f09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525ee15cf1dfbfa575440bad2802e7e6') in 0.016175 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.057920 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark02/bark2col.png
+  artifactKey: Guid(2a1c19e2ccac82e44b1c45231613213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark02/bark2col.png using Guid(2a1c19e2ccac82e44b1c45231613213e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc7efa190f84d6ad6c32d22de656f46') in 0.028432 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark02/bark2norm.png
+  artifactKey: Guid(68fd90e5f01339a4781268021bf67809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Texture/Bark Texture/Bark02/bark2norm.png using Guid(68fd90e5f01339a4781268021bf67809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f664f8993dd8343f723248f3f51f84de') in 0.025110 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.749958 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Preview
+  artifactKey: Guid(a353379a6a739fc44bcdb85e4689b0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Preview using Guid(a353379a6a739fc44bcdb85e4689b0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afc94b7b19a835cd8f5e6fce5076cca') in 0.016663 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.028952 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Preview/Preview_0.png
+  artifactKey: Guid(1916273387302a946ba428e525be49f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Preview/Preview_0.png using Guid(1916273387302a946ba428e525be49f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6616e42e4c187bd68b7bfcd622381026') in 0.046880 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Preview/Preview_6.png
+  artifactKey: Guid(94378b3a35a96c746bdf56b2d27a5bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Preview/Preview_6.png using Guid(94378b3a35a96c746bdf56b2d27a5bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada1dfdcd68281171bdf67e9d6edcbd4') in 0.056465 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Preview/Preview_4.png
+  artifactKey: Guid(838ceecba4cb8ca4ba23f41e8151fd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Preview/Preview_4.png using Guid(838ceecba4cb8ca4ba23f41e8151fd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c884d237fff412e121e208e98d0542a9') in 0.036187 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Environment/uploads_files_3195006_ForestPack/Preview/Preview_8.png
+  artifactKey: Guid(8f84ac10a7617ba4085c8012acffd3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Environment/uploads_files_3195006_ForestPack/Preview/Preview_8.png using Guid(8f84ac10a7617ba4085c8012acffd3ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a435f2aa83770cc37da0bb24c9784b9') in 0.029691 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
