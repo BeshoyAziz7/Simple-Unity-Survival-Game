@@ -128,4 +128,19 @@ Ensure the following prefabs are correctly assigned in their respective script f
 * **Sound Management**: Implement a more centralized sound manager for overall volume control and mixing.
 * **UI/UX**: Further polish UI elements and feedback.
 
+
+## 📞 Let's Connect! 📞
+
+I'm always open to new opportunities, collaborations, or just a friendly chat! Feel free to reach out to me:
+
+* **Location**: Toms River, NJ, USA 📍
+* **Email**: beshoyaziz707@gmail.com 📧
+* **Phone**: +1 (848) 333-9667 📱
+* **LinkedIn**: [https://www.linkedin.com/in/beshoy-aziz-183450279/](https://www.linkedin.com/in/beshoy-aziz-183450279/) 💼
+* **GitHub**: [https://github.com/BeshoyAziz7](https://github.com/BeshoyAziz7) 🐙
+* **Instagram**: [https://www.instagram.com/beshoo_a8?igsh=MTR4eXd1aTVvaGRqMQ==](https://www.instagram.com/beshoo_a8?igsh=MTR4eXd1aTVvaGRqMQ==) 📸
+
+
+
+
 ---
