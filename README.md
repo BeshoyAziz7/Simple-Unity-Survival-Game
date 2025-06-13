@@ -1,4 +1,4 @@
-# Zombie Survival Game (Unity)
+# Zombie Survival Game (Unity) Using Free Assets
 
 This is a simple third-person zombie survival game developed in Unity. The project features basic player movement, a day/night cycle, dynamic zombie spawning, and a rudimentary objective system. (Will be improved in the future).
 
